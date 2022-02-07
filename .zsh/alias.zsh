@@ -1,0 +1,10 @@
+alias ls="lsd"
+alias open="xdg-open"
+# alias dc="docker compose"
+# alias dcr="docker compose run"
+alias e="emacs -nw"
+alias E="emacsclient -t"
+alias start-emacs="emacs --daemon"
+alias kill-emacs="emacsclient -e '(kill-emacs)'"
+alias pbcopy='xclip -selection c'
+alias pbpaste='xclip -selection c -o'
